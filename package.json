@@ -1,0 +1,26 @@
+{
+  "name": "project3store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JLafazan/project3store.git",
+  "author": "JLafazan <jeffandcassy1@gmail.com>",
+  "success_url": "/",
+  "env": {
+    "REACT_APP_MOLTIN_CLIENT_ID": {
+      "description": "The client",
+      "value": "a7b4YLPqTqbKmyYZ5B1pcFsWtHEZt3n9PZGfrCJR6g"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@moltin/sdk": "3.12.1",
+    "next": "6.0.3",
+    "react": "16.4.1",
+    "react-dom": "16.4.1"
+  }
+}
