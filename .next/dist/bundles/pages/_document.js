@@ -67,31 +67,23 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/next/dist/pages/_document.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("next/document")
-
-
-/***/ }),
-
-/***/ 2:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./node_modules/next/dist/pages/_document.js");
-
-
-/***/ }),
-
-/***/ "next/document":
+/***/ "/Users/jeffreylafazan/Documents/18A-Project3AStore/Github/project3store/node_modules/next/dist/pages/_document.js":
 /***/ (function(module, exports) {
 
-module.exports = require("next/document");
+module.exports = require("/Users/jeffreylafazan/Documents/18A-Project3AStore/Github/project3store/node_modules/next/dist/pages/_document.js");
+
+/***/ }),
+
+/***/ 1:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("/Users/jeffreylafazan/Documents/18A-Project3AStore/Github/project3store/node_modules/next/dist/pages/_document.js");
+
 
 /***/ })
 
