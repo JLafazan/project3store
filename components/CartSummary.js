@@ -15,7 +15,7 @@ export default ({
           name="wineryStore"
           amount={amount}
           currency={currency}
-          stripeKey={process.env.pk_test_G0mhqaMKHA3z43hmgRI4M6oH}
+          stripeKey={process.env.STRIPE_KEY}
           shippingAddress={false}
           billingAddress={true}
           zipCode={true}
