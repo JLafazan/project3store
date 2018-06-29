@@ -1,7 +1,7 @@
 {
   "name": "Next.js Demo Store",
-  "description": "A barebones Next.js store powered by moltin",
-  "repository": "https://github.com/moltin/nextjs-demo-store",
+  "description": "A barebones Next.js store powered by moltin modified for eWineryStore",
+  "repository": "https://github.com/jeffreylafazan/project3store",
   "logo": "https://www.moltin.com/img/icons/favicons/apple-touch-icon.png",
   "keywords": [
     "moltin",

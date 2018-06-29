@@ -12,7 +12,14 @@ export default ({
       <Segment clearing size="large">
         <strong>Sub total:</strong> {formatted}
         <StripeCheckout
-          name="wineryStore"
+
+
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          description="Example charge"
+          image="https://stripe.com/img/documentation/checkout/marketplace.png"
+          locale="auto"
+
+          name="winerystore"
           amount={amount}
           currency={currency}
           stripeKey={process.env.STRIPE_KEY}

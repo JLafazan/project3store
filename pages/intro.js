@@ -16,16 +16,15 @@ const IntroductionPage = () => (
         align="middle" allowfullscreen></iframe>
     </div>
     <h1>
-      <p id="rumi">"Either give me more wine or leave me alone." -Rumi</p>
+      <p id="rumi">"Wine is sunlight, held together by water." -Galileo</p>
     </h1>
-
     <h3>Rombauer Winery</h3>
     <div id="video" class="side-by-side">
       <iframe width="574" height="290" src="https://youtube.com/embed/uTURlfz_rD4" frameborder="0" allow="autoplay; encrypted-media"
         align="middle" allowfullscreen></iframe>
     </div>
     <h1>
-      <p id="rumi">"Either give me more wine or leave me alone." -Rumi</p>
+      <p id="rumi">"My only regret in life is that I didn’t drink enough Champagne." -Robert Noecker</p>
     </h1>
 
     <h3>Robert Mondavi Winery</h3>
