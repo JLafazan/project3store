@@ -15,13 +15,13 @@ export default ({
 
 
           src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          description="Example charge"
+          description="Charge to Credit Card"
           image="https://stripe.com/img/documentation/checkout/marketplace.png"
           locale="auto"
 
           name="winerystore"
           amount={amount}
-          currency={currency}
+          currency="USD"
           stripeKey={process.env.STRIPE_KEY}
           shippingAddress={false}
           billingAddress={true}

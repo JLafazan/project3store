@@ -16,11 +16,9 @@ export default class AddToCart extends React.Component {
     console.log("props: ", this.props);
     console.log("state: ", this.state);
 
-    // const { cartId } = this.props
 
     const { productId } = this.props
     const { quantity } = this.state
-    // const cartId = await localStorage.getItem('mcart')
 
     const cartId = await localStorage.getItem('mcart')
 
@@ -29,11 +27,6 @@ export default class AddToCart extends React.Component {
     })
 
     const cart = await addToCart(cartId, productId, quantity)
-
-    // const cart = await addToCart(productId, quantity)
-
-    // await addToCart(productId, quantity)
-
 
 
 
