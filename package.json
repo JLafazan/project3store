@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "redeploy": "now rm project3store && now deploy project3store --scale=1 && now ls && echo \"okay, run this: ... \"now alias set the_url_goes_here ewinery.now.sh\""
   },
   "dependencies": {
     "@moltin/sdk": "github:ynnoj/js-sdk",

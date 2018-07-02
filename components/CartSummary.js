@@ -14,7 +14,7 @@ export default ({
         <StripeCheckout
 
 
-          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          src="https://checkout.stripe.com/checkout.js" className="stripe-button"
           description="Charge to Credit Card"
           image="https://stripe.com/img/documentation/checkout/marketplace.png"
           locale="auto"
