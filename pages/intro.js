@@ -26,11 +26,13 @@ class IntroductionPage extends React.Component {
 
   render() {
     return (
-      <Layout title="intro">
+      <Layout className="layout-Style" title="intro">
 
         <meta charSet="utf-8" />
 
-        <marquee><h1>VineQuest</h1></marquee>
+        <marquee><h1>VineQuest_Miracle</h1></marquee>
+
+
 
         {
           WINERIES.map((winery, idx) => (

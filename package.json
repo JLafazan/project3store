@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "redeploy": "now rm project3store && now deploy project3store --scale=1 && now ls && echo \"okay, run this: ... \"now alias set the_url_goes_here ewinery.now.sh\""
+    "redeploy": "now rm project3store && now deploy . --scale=1 && now ls"
   },
   "dependencies": {
     "@moltin/sdk": "github:ynnoj/js-sdk",
@@ -17,7 +17,8 @@
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-stripe-checkout": "^2.6.3",
-    "semantic-ui-react": "0.78.3"
+    "semantic-ui-react": "0.78.3",
+    "styled-jsx": "^2.2.7"
   },
   "devDependencies": {
     "babel-plugin-inline-dotenv": "^1.1.2"

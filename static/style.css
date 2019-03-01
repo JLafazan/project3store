@@ -1,0 +1,24 @@
+/* body {
+    background: rgb(179, 98, 102) !important;
+    
+    /* background-image: url(/static/branch.jpg);
+    
+}
+    */
+
+
+@media screen and (max-width: 2000px) {
+    body {
+        background: rgb(179, 98, 102) !important;
+    }
+  
+  
+  @media screen and (max-width: 950px) {
+    body {
+        background-image: url(/static/branch.jpg) !important;
+    }
+  
+  @media screen and (max-width: 640px) {
+    body {
+        background-image: url(/static/branch.jpg) !important;
+    }

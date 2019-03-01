@@ -2,10 +2,13 @@
   "presets": ["next/babel"],
   "env": {
     "development": {
-      "plugins": ["inline-dotenv"]
+      "plugins": [
+	"inline-dotenv",
+	"styled-jsx/babel"
+      ]
     },
     "production": {
-      "plugins": ["transform-inline-environment-variables"]
+      "plugins": ["transform-inline-environment-variables", "styled-jsx/babel"]
     }
   }
 }

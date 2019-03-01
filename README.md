@@ -22,3 +22,9 @@ STRIPE_PUBLISHABLE_KEY=
 `npm install`
 
 `npm run dev`
+
+
+## TO DEPLOY / or REDEPLOY
+
+yarn redeploy
+now alias set project3store-######.now.sh ewinery.now.sh

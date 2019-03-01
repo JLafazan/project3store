@@ -38,7 +38,11 @@ export default ({ token }) => (
 
               <Link href="/login" passHref prefetch key="login">
                 <Menu.Item>Sign in</Menu.Item>
+              </Link>,
+              <Link href="/intro" passHref prefetch key="intro">
+                <Menu.Item>Intro</Menu.Item>
               </Link>
+
             ]
           )} */}
 
@@ -63,7 +67,6 @@ export default ({ token }) => (
                 </Link>
               ]
             
-
 
 
 

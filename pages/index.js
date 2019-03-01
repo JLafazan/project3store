@@ -5,7 +5,9 @@ import { getProducts } from '../lib/moltin'
 
 const Home = ({ products }) => (
   <Layout title="Home">
-    <ProductList products={products} />
+    <container className="products">
+      <ProductList products={products} />
+    </container>
   </Layout>
 )
 
